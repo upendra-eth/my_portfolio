@@ -1,5 +1,10 @@
 // Import Assets
+import { Document, Page } from 'react-pdf';
+// import { Document } from 'react-pdf/dist/entry.webpack';
+// import { Page } from 'react-pdf'
 import profile from '../assets/p0.png';
+import Resume from "../assets/Resume.pdf"
+
 
 const Header = () => {
     return (
@@ -10,7 +15,14 @@ const Header = () => {
                 <h1>Hi, I'm Upendra Singh</h1>
                 <p>Blockchain Developer</p>
                 {/* <button className='button'>Get In Touch */}
-                <a href="https://www.linkedin.com/in/upendra-singh-494284176/" className='button' style={{textDecoration: 'none', color: 'white'}} target="_blank">Get In Touch</a>
+               <div className='resume'> 
+               <a href="https://www.linkedin.com/in/upendra04/" className='button' style={{textDecoration: 'none', color: 'white'}} target="_blank">Get In Touch</a>
+               <a href="https://drive.google.com/file/d/1gzO5qOwkJbu74O8hbNTCPCSffDpf1Gpk/view?usp=sharing" className='button' style={{textDecoration: 'none', color: 'white'}} target="_blank">Resume</a>
+               {/* <Document file={Resume}>
+              <Page pageNumber={1} />
+            </Document> */}
+                                               
+               </div>
                 {/* </button> */}
             </div>
         </section>

@@ -11,9 +11,9 @@ const Projects = () => {
             <div className="projects__cards">
 
                 <div className="projects__card">
-                    <h3>Listen to Earn</h3>
+                    <h3>Listen to Earn Dapp</h3>
                     <img src={Nft} alt="Uniswap Swap Page" />
-                    <p>This a decentralised listen to earn music app. You get one M coin per song you listen here. 
+                    <p> You get one M coin per song you play. 
                     </p>
 
                     <a href="https://musicdapp.netlify.app/" target="_blank" className="button" style={{textDecoration: 'none', color: 'white'}}>Site</a>
@@ -30,9 +30,9 @@ const Projects = () => {
                 </div>
 
                 <div className="projects__card">
-                    <h3>Drum KIT</h3>
+                    <h3>Drum Kit</h3>
                     <img src={Drum} alt="Aave Landing Page" />
-                    <p>Drum KIT - Wesite to make Some Fun MUSIC
+                    <p>Website to make Some Fun MUSIC
                     </p>
 
                     <a href="https://gautambnsl.github.io/Drum-kit/" target="_blank" className="button" style={{textDecoration: 'none', color: 'white'}}>Site</a>

@@ -78,8 +78,17 @@ code {
   font-size: 32px;
 }
 
-.header__content button {
+/* .header__content button {
   margin: 25px auto 0;
+  
+} */
+
+.resume{
+  margin-top: 30px;
+  margin-left: 17px;
+  display: flex;
+  gap: 10px;
+  
 }
 
 /* ------------------------------------------------------ */

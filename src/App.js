@@ -1,4 +1,5 @@
 // Import Components
+import { Document, Page } from 'react-pdf'
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
