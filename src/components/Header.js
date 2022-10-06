@@ -17,7 +17,11 @@ const Header = () => {
                 {/* <button className='button'>Get In Touch */}
                <div className='resume'> 
                <a href="https://www.linkedin.com/in/upendra04/" className='button' style={{textDecoration: 'none', color: 'white'}} target="_blank">Get In Touch</a>
+<<<<<<< HEAD
                <a href="https://drive.google.com/file/d/1QgP8IC6uCRCHGkCTtvRcyOWjas-46_Fh/view?usp=sharing" className='button' style={{textDecoration: 'none', color: 'white'}} target="_blank">Resume</a>
+=======
+               <a href="https://drive.google.com/file/d/1gzO5qOwkJbu74O8hbNTCPCSffDpf1Gpk/view?usp=sharing" className='button' style={{textDecoration: 'none', color: 'white'}} target="_blank">Resume</a>
+>>>>>>> 9b23b3d1babb0baf8558140495da240af488f545
                {/* <Document file={Resume}>
               <Page pageNumber={1} />
             </Document> */}
